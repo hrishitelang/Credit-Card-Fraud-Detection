@@ -16,3 +16,14 @@ c) Logistic Regression = 95.6%
 d) KNN = 100%
 e) Linear SVM = 95.3%
 f) Naive Bayes Classifier = 91.9%
+
+## 3. Credit Card Fraud Detection Using Classification Methods and SMOTE with RandomUnderSampler
+In this exercise, we have performed oversampling and undersampling of the same classes using the RandomUnderSampler class from the imbalanced-learn library.
+We can update the example to first oversample the minority class to have 10 percent the number of examples of the majority class, then use random undersampling to reduce the number of examples in the majority class to have 50 percent more than the minority class.
+The accuracy of the classifiers are as follows:
+a) Random Forest = 100%
+b) Decision Tree = 100%
+c) Logistic Regression = 96.3%
+d) KNN = 99.8%
+e) Linear SVM = 96.0%
+f) Naive Bayes Classifier = 93.89%
